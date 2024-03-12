@@ -1,0 +1,52 @@
+.accordion-items {
+	padding: 0;
+	margin: 0;
+}
+
+.accordion-item {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+	gap: 4.5px;
+	padding: 0;
+	margin: 0;
+}
+
+.accordion-checkbox-input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	position: absolute;
+}
+
+.accordion-check-label {
+	padding-left: 25px;
+}
+
+.option {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.accordion-check-box {
+	position: absolute;
+	width: 15px;
+	margin-top: 2px;
+	height: 15px;
+	box-shadow: 0 0 0 1px #959595;
+	margin-left: -24px;
+	border-radius: 2px;
+	background-color: #353542;
+}
+
+.accordion-check-box:hover {
+	cursor: pointer;
+}
+
+.accordion-checkbox-input:checked + .accordion-check-box {
+	background-color: #84d52c;
+	background-image: url(../../images/checkIcon.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,48 @@
+.side-filter .MuiAccordion-root.Mui-expanded {
+	margin: 0 !important;
+}
+
+.filter-range .MuiSlider-rail {
+	color: #30303d !important;
+}
+
+.filter-range .MuiSlider-track {
+	color: #7acb22 !important;
+}
+
+.filter-range .MuiSlider-valueLabel {
+	background-color: #30303d !important;
+	color: #ffffff !important;
+}
+
+.side-filter {
+	margin-top: 30px;
+	width: 243px;
+	border-radius: 10px;
+	background-color: #353542;
+	margin-left: 25px;
+	border: 1px solid #7acb22;
+	overflow: hidden;
+}
+.chips {
+	margin: 0 auto;
+	margin-top: 15px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	width: 1432px;
+}
+
+.chips-number {
+	font-size: 16px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+.chips-list {
+	margin: 0;
+	display: flex;
+	gap: 10px;
+	flex-direction: row;
+	flex-wrap: wrap;
+}

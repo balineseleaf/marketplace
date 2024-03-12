@@ -1,0 +1,242 @@
+.filter {
+	width: 1432px;
+	margin: 0 auto;
+	margin-top: 29px;
+	display: flex;
+	align-items: center;
+	gap: 25px;
+	position: relative;
+}
+
+.filter-range {
+	width: 227px;
+	height: 82px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.filter-price-value {
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	border: 1px solid #606060;
+	border-radius: 3px;
+	padding: 2px 2px 2px 2px;
+	text-align: center;
+}
+
+.min {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.max {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #959595;
+}
+
+.filter-price-range-header {
+	position: absolute;
+	margin: 0;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 0;
+	top: 0;
+	left: 0;
+	line-height: 1.35;
+}
+
+.slider {
+	top: 50%;
+	transform: translateY(-50%);
+	width: 200px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.slider:hover {
+	cursor: pointer;
+}
+
+.filter-equalizer {
+	position: relative;
+	height: 70px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.filter-category-button {
+	display: block;
+	border: 1px solid #7acb22;
+	outline: none;
+	width: 48px;
+	border-radius: 10px;
+	height: 48px;
+	background-color: #353542;
+	background-image: url(../../images/Union.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 24px 24px;
+	position: absolute;
+	transition: 0.4s ease-in-out;
+	right: 37px;
+}
+
+.filter-category-button:hover {
+	cursor: pointer;
+}
+
+.sort-header {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
+
+.sort-list {
+	position: absolute;
+	padding: 20px;
+	right: 37px;
+	width: 217px;
+	top: 81px;
+	background-color: #212129;
+	border-radius: 10px;
+	box-sizing: border-box;
+	display: none;
+}
+.open {
+	display: block;
+}
+
+.sort-items {
+	margin: 0;
+	padding: 0;
+}
+
+.sort-item {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 13px;
+	margin-bottom: 13px;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.list-button {
+	border: none;
+	outline: none;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	background-color: #212129;
+	margin-left: 10px;
+	line-height: 1.35;
+}
+
+.sort-icon-vector-up {
+	position: absolute;
+	top: -5px;
+	left: -9px;
+}
+
+.sort-icon-vector-down {
+	position: absolute;
+	top: 2px;
+	left: 10px;
+}
+
+.price-sort {
+	margin-left: 18px;
+}
+
+.radio-rating {
+	position: relative;
+	width: 108px;
+	height: 70px;
+}
+
+.radio-rating:hover {
+	cursor: pointer;
+}
+
+.rating {
+	display: flex;
+	position: relative;
+	top: 25px;
+	align-items: flex-end;
+}
+
+.rating input[type='radio'] {
+	display: none;
+}
+
+.rating label {
+	width: 5px;
+	height: 19px;
+	background-color: yellow;
+	margin-right: 8px;
+}
+.rating label:hover {
+	cursor: pointer;
+}
+
+.rating label:last-of-type {
+	margin-right: 0px;
+}
+
+.rating label:nth-child(n + 12) {
+	background-color: #297019;
+}
+
+.rating input[type='radio'] + label:nth-child(10),
+.rating input[type='radio'] + label:nth-child(20) {
+	height: 26px;
+}
+
+.rating-header {
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.35;
+}
+
+.rating-text-left {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #959595;
+	left: 0;
+	bottom: 0;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.35;
+}
+
+.rating-text-right {
+	position: absolute;
+	margin: 0;
+	right: 0;
+	bottom: 0;
+	padding: 0;
+	color: #959595;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.35;
+}
