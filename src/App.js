@@ -1,10 +1,7 @@
 import './App.css';
-
 import Accordions from './components/Accordions/Accordions';
 import Sliders from './components/Sliders/Sliders';
-import { useState } from 'react';
 import CheckboxButtons from './components/CheckboxButtons/CheckboxButtons';
-
 
 function App() {
 
@@ -21,16 +18,6 @@ function App() {
           </nav>
         </header>
         <Sliders />
-        {/* <section className='chips'>
-          <span className='chips-number'>1034,5 Results</span>
-          <ul className='chips-list'>
-            <Stack direction="row" spacing={1}>
-              {selectedValues.map((value, index) => (
-                <Chip key={index} label={value} sx={{ backgroundColor: '#297019', color: "#ffffff", border: "none" }} variant="outlined" onDelete={handleDelete} />
-              ))}
-            </Stack>
-          </ul>
-        </section> */}
         <Accordions />
       </div>
     </div >

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7e639b9c.css",
-    "main.js": "/static/js/main.1958066f.js",
+    "main.js": "/static/js/main.b58fef10.js",
     "static/media/proxima-nova-semibold.ttf": "/static/media/proxima-nova-semibold.be42827ac88aca64dbf0.ttf",
     "static/media/proxima-nova-regular.ttf": "/static/media/proxima-nova-regular.b078618b41b9b6629ea0.ttf",
     "static/media/proxima-nova-bold.ttf": "/static/media/proxima-nova-bold.7722451a8c88b6100185.ttf",
@@ -19,10 +19,10 @@
     "static/media/Down.svg": "/static/media/Down.e9a0104cbb99a62baf45f1dc0e098cc1.svg",
     "index.html": "/index.html",
     "main.7e639b9c.css.map": "/static/css/main.7e639b9c.css.map",
-    "main.1958066f.js.map": "/static/js/main.1958066f.js.map"
+    "main.b58fef10.js.map": "/static/js/main.b58fef10.js.map"
   },
   "entrypoints": [
     "static/css/main.7e639b9c.css",
-    "static/js/main.1958066f.js"
+    "static/js/main.b58fef10.js"
   ]
 }

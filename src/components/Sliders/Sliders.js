@@ -74,8 +74,6 @@ const Sliders = () => {
 
   const handleRadioMouseDown = (event) => {
     const rating = event.currentTarget;
-    const stars = rating.querySelectorAll('input[type="radio"]');
-    const labels = rating.querySelectorAll('label');
 
     rating.addEventListener('mousemove', handleRadioMouseMove);
 
