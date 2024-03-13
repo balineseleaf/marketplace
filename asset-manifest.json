@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/marketplace/static/css/main.d219579f.css",
+    "main.css": "/marketplace/static/css/main.f935e502.css",
     "main.js": "/marketplace/static/js/main.04a00f05.js",
     "static/media/proxima-nova-semibold.ttf": "/marketplace/static/media/proxima-nova-semibold.be42827ac88aca64dbf0.ttf",
     "static/media/proxima-nova-regular.ttf": "/marketplace/static/media/proxima-nova-regular.b078618b41b9b6629ea0.ttf",
@@ -18,11 +18,11 @@
     "static/media/UP.svg": "/marketplace/static/media/UP.ba74295fb1777cf55013c59a36de84dd.svg",
     "index.html": "/marketplace/index.html",
     "static/media/Down.svg": "/marketplace/static/media/Down.e9a0104cbb99a62baf45f1dc0e098cc1.svg",
-    "main.d219579f.css.map": "/marketplace/static/css/main.d219579f.css.map",
+    "main.f935e502.css.map": "/marketplace/static/css/main.f935e502.css.map",
     "main.04a00f05.js.map": "/marketplace/static/js/main.04a00f05.js.map"
   },
   "entrypoints": [
-    "static/css/main.d219579f.css",
+    "static/css/main.f935e502.css",
     "static/js/main.04a00f05.js"
   ]
 }
